@@ -61,3 +61,4 @@ easy_perception：下载百度网盘上的cv22_linux_sdk.zip的sdk包解压到ea
 | docker_case014 | 分割任务部署 | 通过easy_perception编译生成segnet_test，将训练得到的segnet.bin以及测试图片一起放到sd卡中，插入AMBA的板子后，上电运行segnet_test，结果保存在seg_result.txt中。| |
 | docker_case015 | 字符识别任务部署 | 通过easy_perception编译生成textnet_test，将训练得到的TextNet.bin以及测试图片一起放到sd卡中，插入AMBA的板子后，上电运行textnet_test，结果保存在text_result.txt中。| |
 | docker_case016 | OneClass任务部署 | 通过easy_perception编译生成one_class_test，将训练得到的OneClassNet.bin以及测试图片一起放到sd卡中，插入AMBA的板子后，上电运行one_class_test，结果保存在one_class_result.txt中。| |
+| docker_case016 | 分类任务界面训练 | | |
