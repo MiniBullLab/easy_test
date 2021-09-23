@@ -49,9 +49,9 @@ easy_ai：下载预训练模型[data](http://118.31.19.101:8080/easy_tools/data_
 | docker_case004 | 分割图生成 | 分割标注后的结果生成mask图片，结果保存在SegmentLabel文件夹中。| |
 | docker_case005 | 视频转化为图片 | | |
 | docker_case006 | 图片格式转换 | | |
-| docker_case007 | 分类任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_17class_jpg.zip)（17类，jpg格式），运行easy_tools的脚步文件ClassNet.sh进行训练，训练生成classnet.bin文件。| |
-| docker_case008 | 检测任务训练 | 训练数据集为[水果数据](http://118.31.19.101:8080/dataset/det/denet_fruit_4class.zip)（4类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件DeNet.sh进行训练，训练生成denet.bin文件。| |
-| docker_case009 | 分割任务训练 | 训练数据集为[螺母数据](http://118.31.19.101:8080/dataset/seg/segnet_nut_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件SegNet.sh进行训练，训练生成segnet.bin文件。| |
+| docker_case007 | 分类任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_17class_jpg.zip)（17类，jpg格式），运行easy_tools的脚步文件ClassNet.sh进行训练，训练生成classnet.bin文件。| 训练最高精度为92.67% |
+| docker_case008 | 检测任务训练 | 训练数据集为[水果数据](http://118.31.19.101:8080/dataset/det/denet_fruit_4class.zip)（4类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件DeNet.sh进行训练，训练生成denet.bin文件。| 训练最高精度为98% |
+| docker_case009 | 分割任务训练 | 训练数据集为[螺母数据](http://118.31.19.101:8080/dataset/seg/segnet_nut_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件SegNet.sh进行训练，训练生成segnet.bin文件。| 训练最高精度为75.1% |
 | docker_case010 | 字符识别任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件TextNet.sh进行训练，训练生成TextNet.bin文件。| |
 | docker_case011 | OneClass任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件OneClassNet.sh进行训练，训练生成OneClassNet.bin文件。| |
 | docker_case012 | 分类任务部署 | 通过easy_perception编译生成classnet_test，将训练得到的classnet.bin以及测试图片一起放到sd卡中，插入AMBA的板子后，上电运行classnet_test，结果保存在cls_result.txt中。| |
