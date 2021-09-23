@@ -31,6 +31,8 @@ easy_sample_mark使用：操作视频在百度网盘中。
 
 easy_ai：下载预训练模型[data](http://118.31.19.101:8080/easy_tools/data_v3.zip)解压后放到easy_ai/easy_tools目录下。
 
+easy_perception：下载百度网盘上的cv22_linux_sdk.zip的sdk包解压到easy_data目录下。
+
 
 ### 测试环境与配置
 
