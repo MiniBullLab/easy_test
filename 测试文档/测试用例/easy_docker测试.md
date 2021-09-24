@@ -61,4 +61,10 @@ easy_perception：下载百度网盘上的cv22_linux_sdk.zip的sdk包解压到ea
 | docker_case014 | 分割任务部署 | 通过easy_perception编译生成segnet_test，将训练得到的segnet.bin以及测试图片一起放到sd卡中，插入AMBA的板子后，上电运行segnet_test，结果保存在seg_result.txt中。| |
 | docker_case015 | 字符识别任务部署 | 通过easy_perception编译生成textnet_test，将训练得到的TextNet.bin以及测试图片一起放到sd卡中，插入AMBA的板子后，上电运行textnet_test，结果保存在text_result.txt中。| |
 | docker_case016 | OneClass任务部署 | 通过easy_perception编译生成one_class_test，将训练得到的OneClassNet.bin以及测试图片一起放到sd卡中，插入AMBA的板子后，上电运行one_class_test，结果保存在one_class_result.txt中。| |
-| docker_case016 | 分类任务界面训练 | | |
+| docker_case017 | 分类任务界面训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_17class_jpg.zip)（17类，jpg格式），运行easy_tools的脚步文件ClassNet.sh进行训练，训练生成classnet.bin文件。| 训练最高精度为92.67% |
+| docker_case018 | 检测任务界面训练 | 训练数据集为[水果数据](http://118.31.19.101:8080/dataset/det/denet_fruit_4class.zip)（4类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件DeNet.sh进行训练，训练生成denet.bin文件。| 训练最高精度为98% |
+| docker_case019 | 分割任务界面训练 | 训练数据集为[螺母数据](http://118.31.19.101:8080/dataset/seg/segnet_nut_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件SegNet.sh进行训练，训练生成segnet.bin文件。| 训练最高精度为75.1% |
+| docker_case020 | 分类任务上下位机精度界面测试 |  | |
+| docker_case021 | 检测任务上下位机精度界面测试 |  | |
+| docker_case022 | 分割任务上下位机精度界面测试 |  | |
+
