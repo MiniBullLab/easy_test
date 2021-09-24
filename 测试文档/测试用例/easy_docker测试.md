@@ -27,11 +27,12 @@ docker安装完后，docker使用方式：
 进入镜像后会在home目录下生成easy_data目录，将easy_sample_mark, easy_ai, easy_perception分别clone到easy_data目录下。
 
 easy_sample_mark编译：[docker环境下编译与运行](https://github.com/MiniBullLab/easy_sample_mark/blob/develop/docs/docker%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%BC%96%E8%AF%91%E4%B8%8E%E8%BF%90%E8%A1%8C.md)。
+
 easy_sample_mark使用：操作视频在百度网盘中。
 
 easy_ai：下载预训练模型[data](http://118.31.19.101:8080/easy_tools/data_v3.zip)解压后放到easy_ai/easy_tools目录下。
 
-easy_perception：下载百度网盘上的cv22_linux_sdk.zip的sdk包解压到easy_data目录下。
+easy_perception：[docker环境下编译](https://github.com/MiniBullLab/easy_perception/blob/develop/easy_arm/README.md)。
 
 
 ### 测试环境与配置
