@@ -51,6 +51,7 @@ easy_perception：[docker环境下编译](https://github.com/MiniBullLab/easy_pe
 | docker_case003 | OCR任务标注 | 标注数据[集装箱数据](http://118.31.19.101:8080/dataset/seg/segnet_can_2class_jpg.zip)（jpg格式），对集装箱字符多边形标注操作，并注释字符内容，标注后结果正确保存到Annotations文件夹中。| |
 | docker_case004 | 分割图生成 | 分割标注后的结果生成mask图片，结果保存在SegmentLabel文件夹中。| |
 | docker_case005 | 视频转化为图片 | | |
+| docker_case005 | 图片转化为视频 | | |
 | docker_case006 | 图片格式转换 | | |
 | docker_case007 | 分类任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_17class_jpg.zip)（17类，jpg格式），运行easy_tools的脚步文件ClassNet.sh进行训练，训练生成classnet.bin文件。| 训练最高精度为92.67% |
 | docker_case008 | 检测任务训练 | 训练数据集为[水果数据](http://118.31.19.101:8080/dataset/det/denet_fruit_4class.zip)（4类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件DeNet.sh进行训练，训练生成denet.bin文件。| 训练最高精度为98% |
