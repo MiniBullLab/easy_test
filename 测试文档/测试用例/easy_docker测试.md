@@ -14,23 +14,11 @@ easy_docker库测试
 easy_docker环境编译：[docker镜像编译及制作流程](https://github.com/MiniBullLab/easy_docker/blob/master/docs/docker%E9%95%9C%E5%83%8F%E7%BC%96%E8%AF%91%E5%8F%8A%E5%88%B6%E4%BD%9C%E6%B5%81%E7%A8%8B.md)
 
 #### 2. 软件使用方法
-docker安装完后，docker使用方式：
-
-- 启动docker镜像
-```
-./scripts/run/docker_start.sh workspace
-```
-- 进入docker镜像
-```
-./scripts/run/docker_into.sh workspace
-```
-进入镜像后会在home目录下生成easy_data目录，将easy_sample_mark, easy_ai, easy_perception分别clone到easy_data目录下。
+docker安装完后，docker使用方式：[docker镜像使用流程](https://github.com/MiniBullLab/easy_docker/blob/master/docs/docker%E9%95%9C%E5%83%8F%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B.md)
+进入镜像后会在home目录下生成easy_data目录，对于ai_runtime的镜像测试，需要将easy_sample_mark, easy_perception分别clone到easy_data目录下。
+对于ai_workspace的镜像测试需要将easy_sample_mark, easy_ai, easy_perception分别clone到easy_data目录下。
 
 easy_sample_mark编译：[docker环境下编译与运行](https://github.com/MiniBullLab/easy_sample_mark/blob/develop/docs/docker%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%BC%96%E8%AF%91%E4%B8%8E%E8%BF%90%E8%A1%8C.md)。
-
-easy_sample_mark使用：操作视频在百度网盘中。
-
-easy_ai：下载预训练模型[data](http://118.31.19.101:8080/easy_tools/data_v3.zip)解压后放到easy_ai/easy_tools目录下。
 
 easy_perception：[docker环境下编译](https://github.com/MiniBullLab/easy_perception/blob/develop/easy_arm/README.md)。
 
@@ -40,7 +28,6 @@ easy_perception：[docker环境下编译](https://github.com/MiniBullLab/easy_pe
 | 资源名称 | 配置 | 备注 |
 | :------: | :------ | :------ | 
 | 带有gpu的服务器 | Ubuntu18.04,4T硬盘,128G内存,12G独显 | |
-| 安霸cv22芯片 | linux系统内核4.6，RAM2G，ROM8G | |
 
 ### 测试用例表格
 
