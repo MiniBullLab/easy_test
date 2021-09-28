@@ -46,6 +46,25 @@ easy_perception：[docker环境下编译](https://github.com/MiniBullLab/easy_pe
 
 | 测试用例标识符 | 测试用例名称 | 详细说明 | 备注 |
 | :------: | :------ | :------ |  :------ | 
+| docker_case001 | ai_runtime镜像编译 |  |  |
+| docker_case002 | ai_runtime镜像启动 |  |  |
+| docker_case003 | ai_runtime镜像进入 |  |  |
+| docker_case004 | ai_runtime镜像打包 |  |  |
+| docker_case005 | ai_runtime镜像ClassNet.sh脚步测试 |  |  |
+| docker_case006 | ai_runtime镜像DeNet.sh脚步测试 |  |  |
+| docker_case007 | ai_runtime镜像SegNet.sh脚步测试 |  |  |
+| docker_case008 | ai_workspace镜像编译 |  |  |
+| docker_case009 | ai_workspace镜像启动 |  |  |
+| docker_case010 | ai_workspace镜像进入 |  |  |
+| docker_case011 | ai_workspace镜像打包 |  |  |
+| docker_case012 | ai_workspace镜像ClassNet.sh脚步测试 |  |  |
+| docker_case013 | ai_workspace镜像DeNet.sh脚步测试 |  |  |
+| docker_case014 | ai_workspace镜像SegNet.sh脚步测试 |  |  |
+| docker_case015 |  ai_workspace镜像中easy_sample_mark编译 |  |  |
+| docker_case016 |  ai_workspace镜像中easy_sample_mark运行 |  |  |
+| docker_case017 |  ai_workspace镜像中easy_perception编译 |  |  |
+
+
 | docker_case001 | 检测任务标注 | 标注数据[饺子数据](http://118.31.19.101:8080/dataset/det/denet_dumpling_1class_bmp_xml.zip)（1类，jpg格式），对图片中的饺子进行拉框操作，标注后结果正确保存到Annotations文件夹中。| |
 | docker_case002 | 分割任务标注 | 标注数据[易拉罐底部气泡数据](http://118.31.19.101:8080/dataset/seg/segnet_can_2class_jpg.zip)（2类，jpg格式），对易拉罐底部的气泡进行多边形标注操作，标注后结果正确保存到Annotations文件夹中。| |
 | docker_case003 | OCR任务标注 | 标注数据[集装箱数据](http://118.31.19.101:8080/dataset/seg/segnet_can_2class_jpg.zip)（jpg格式），对集装箱字符多边形标注操作，并注释字符内容，标注后结果正确保存到Annotations文件夹中。| |
