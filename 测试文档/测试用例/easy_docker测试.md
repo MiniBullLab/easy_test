@@ -54,15 +54,3 @@ easy_perception编译：[docker环境下编译](https://github.com/MiniBullLab/e
 | docker_case016 |  ai_workspace镜像中easy_sample_mark运行 | 参照2. 软件使用方法：easy_sample_mark编译与运行。 |  |
 | docker_case017 |  ai_workspace镜像中easy_perception编译 | 参照2. 软件使用方法：easy_perception编译。  |  |
 
-| docker_case007 | 分类任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_17class_jpg.zip)（17类，jpg格式），运行easy_tools的脚步文件ClassNet.sh进行训练，训练生成classnet.bin文件。| 训练最高精度为92.67% |
-| docker_case008 | 检测任务训练 | 训练数据集为[水果数据](http://118.31.19.101:8080/dataset/det/denet_fruit_4class.zip)（4类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件DeNet.sh进行训练，训练生成denet.bin文件。| 训练最高精度为98% |
-| docker_case009 | 分割任务训练 | 训练数据集为[螺母数据](http://118.31.19.101:8080/dataset/seg/segnet_nut_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件SegNet.sh进行训练，训练生成segnet.bin文件。| 训练最高精度为75.1% |
-| docker_case010 | 字符识别任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件TextNet.sh进行训练，训练生成TextNet.bin文件。| |
-| docker_case011 | OneClass任务训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件OneClassNet.sh进行训练，训练生成OneClassNet.bin文件。| |
-| docker_case017 | 分类任务界面训练 | 训练数据集为[花朵数据](http://118.31.19.101:8080/dataset/cls/classnet_flower_17class_jpg.zip)（17类，jpg格式），运行easy_tools的脚步文件ClassNet.sh进行训练，训练生成classnet.bin文件。| 训练最高精度为92.67% |
-| docker_case018 | 检测任务界面训练 | 训练数据集为[水果数据](http://118.31.19.101:8080/dataset/det/denet_fruit_4class.zip)（4类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件DeNet.sh进行训练，训练生成denet.bin文件。| 训练最高精度为98% |
-| docker_case019 | 分割任务界面训练 | 训练数据集为[螺母数据](http://118.31.19.101:8080/dataset/seg/segnet_nut_2class.zip)（2类，混合格式（jpg,png,bmp）），运行easy_tools的脚步文件SegNet.sh进行训练，训练生成segnet.bin文件。| 训练最高精度为75.1% |
-| docker_case020 | 分类任务上下位机精度界面测试 |  | |
-| docker_case021 | 检测任务上下位机精度界面测试 |  | |
-| docker_case022 | 分割任务上下位机精度界面测试 |  | |
-
